@@ -7,14 +7,33 @@ public class Problem190 {
     }
 }
 
- class Solution {
+
+
+// class Solution {
+//     // you need treat n as an unsigned value
+//     public int reverseBits(int n) {
+//         int ans = 0;
+//         int mask = 1;
+
+//         for(int i = 0 ; i < 32 ; i++){
+//             if((n & mask) != 0) ans +=1 <<31 - i;
+
+//             System.out.println(ans);
+//             mask <<= 1;
+//         }
+//         return ans;
+//     }
+// }
+
+class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
-        int result=0;
-        for(int i = 0 ;i < 32 ; i++){
-            result = (n & 1) ? Math.pow(2,32-i) : 0;
-            n >>= 1;
+        int ans = 0;
+        for (int i = 0; i < 32; i++) {
+            ans <<= 1;         // Shift result to the left to make room
+            ans |= (n & 1);    // Add the last bit of n
+            n >>= 1;           // Shift n to the right to get the next bit
         }
-        return result;
+        return ans;
     }
 }
