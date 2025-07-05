@@ -8,17 +8,24 @@ public class Solution3304 {
 
 class Solution {
     public char kthCharacter(int k) {
-        StringBuilder str = new StringBuilder("a");
-        while(k >= str.length()){
-            int len = str.length();
-            for(int i = 0; i< len ; i++){
-                if(str.charAt(i) == 'z') str.append("a");
-                str.append((char)  (((int)str.charAt(i)) +1) );
-            }
-        }
-        return str.charAt(k-1);
+        int shift = Integer.bitCount(k-1);
+        int result = (int)'a' + shift;
+        return (char)result ;
     }
 }
+// class Solution {
+//     public char kthCharacter(int k) {
+//         StringBuilder str = new StringBuilder("a");
+//         while(k >= str.length()){
+//             int len = str.length();
+//             for(int i = 0; i< len ; i++){
+//                 if(str.charAt(i) == 'z') str.append("a");
+//                 str.append((char)  (((int)str.charAt(i)) +1) );
+//             }
+//         }
+//         return str.charAt(k-1);
+//     }
+// }
 // class Solution {
 //     public char kthCharacter(int k) {
 //         StringBuilder str = new StringBuilder("a");
