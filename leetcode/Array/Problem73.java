@@ -32,7 +32,7 @@
 
 import java.util.Vector;
 
-public class Problem12{
+public class Problem73{
    public static void main(String x[]){
       Solution obj = new Solution();
       int matrix[][] = {{0,1,2,0},{3,4,5,2},{1,3,1,5}};
