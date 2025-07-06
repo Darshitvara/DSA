@@ -1,3 +1,4 @@
+package Numeric;
 // 7. Reverse Integer
 // Solved
 // Medium
@@ -30,7 +31,7 @@
 
 
 
-public class Problem10{
+public class Problem7{
    public static void main(String x[]){
       Solution obj = new Solution();
       System.out.println(obj.reverse(1534236469));

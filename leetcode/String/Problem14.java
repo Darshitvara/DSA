@@ -30,6 +30,8 @@
 
 
 import java.util.*;
+
+import Numeric.Solution;
 public class Problem14{
    public static void main(String x[]){
     Solution obj = new Solution();
