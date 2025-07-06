@@ -40,7 +40,7 @@
 
 // 1 <= nums.length <= 100
 // 1 <= nums[i] <= 100
-public class Problem14 {
+public class Problem1752 {
     public static void main(String x[]) {
         Solution obj = new Solution();
         // int nums[] = {2,1,3,4};

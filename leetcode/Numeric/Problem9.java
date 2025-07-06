@@ -27,7 +27,7 @@
 
 
 import java.util.*;
-public class Problem2{
+public class Problem9{
    public static void main(String x[]){
       Solution obj = new Solution();
       Scanner sc = new Scanner(System.in);
