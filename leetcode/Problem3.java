@@ -50,8 +50,3 @@ class Solution {
         return pair;
     }
 }
-public class Problem3{
-    public static void main(String x[]){
-
-    }
-}
