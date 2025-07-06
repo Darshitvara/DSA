@@ -37,7 +37,7 @@
 
 import java.util.HashMap;
 
-public class Problem19 {
+public class Solution1 {
    public static void main(String x[]) {
       Solution obj = new Solution();
       int a[] = {2,7,11,15};
