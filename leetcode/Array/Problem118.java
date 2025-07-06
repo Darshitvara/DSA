@@ -1,18 +1,27 @@
-// import java.util.*;
-// public class Problem13{
-//    public static void main(String x[]){
-//       Solution obj = new Solution();
-//         List<List<Integer>> result = new ArrayList<List<Integer>>();
-//         result =obj.generate(5);
 
-//         for(int i = 0; i < result.size(); i++) {   
-//             for(int j = 0; j < result.get(i).size(); j++) {   
-//                 System.out.print(result.get(i).get(j) + "  ");
-//             }  
-//             System.out.println(" ");
-//         }  
-//    }
-// }
+// 118. Pascal's Triangle
+// Solved
+// Easy
+// Topics
+// premium lock icon
+// Companies
+// Given an integer numRows, return the first numRows of Pascal's triangle.
+
+// In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+
+// Example 1:
+
+// Input: numRows = 5
+// Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+// Example 2:
+
+// Input: numRows = 1
+// Output: [[1]]
+ 
+
+// Constraints:
+
+// 1 <= numRows <= 30
 
 // class Solution {
 //     public List<List<Integer>> generate(int numRows) {
@@ -47,7 +56,7 @@
 // }
 
 import java.util.*;
-public class Problem13{
+public class Problem118{
    public static void main(String x[]){
     //   Solution obj = new Solution();
       SecondSolution obj2 = new SecondSolution();
