@@ -1,3 +1,4 @@
+package Numeric;
 // 2566. Maximum Difference by Remapping a Digit
 // Solved
 // Easy
