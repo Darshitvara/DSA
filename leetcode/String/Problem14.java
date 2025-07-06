@@ -34,7 +34,7 @@ import java.util.*;
 import Numeric.Solution;
 public class Problem14{
    public static void main(String x[]){
-    Solution obj = new Solution();
+    Solution20 obj = new Solution20();
       Scanner sc = new Scanner(System.in);
       String[] strs = {"flower","flower","flower","flower"};
     //   String[] strs = {"flower","low","flight"};

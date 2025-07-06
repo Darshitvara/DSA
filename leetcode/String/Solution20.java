@@ -48,7 +48,7 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
-public class Solution {
+public class Solution20 {
     public boolean isValid(String str) {
         Map<Character, Character> map = new HashMap<>();
         Stack<Character> s = new Stack<>();
