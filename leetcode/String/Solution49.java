@@ -63,14 +63,18 @@ class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
 
+        // Iterate through each string in the input array
         for (String str : strs) {
+            // Sort the characters of each string to form a key
             char[] chars = str.toCharArray();
             Arrays.sort(chars);
             String sorted = new String(chars);
-
+            // Use the sorted string as a key in the map
+            // and add the original string to the corresponding list
             map.computeIfAbsent(sorted, k -> new ArrayList<>()).add(str);
         }
-
+        // Return the values of the map as a list of lists
+        // Each list contains anagrams grouped together
         return new ArrayList<>(map.values());
     }
 }
