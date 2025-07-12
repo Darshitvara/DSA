@@ -26,7 +26,7 @@ This repository contains my daily solutions to **Data Structures and Algorithms 
 
 - 🧑‍💻 These solutions reflect my own learning and approach.  
 - 📝 Problem statements belong to their respective platforms.  
-- 🙌 Feel free to use this repo for reference — but always try solving problems on your own first!
+- 🙌 Feel free to use this repo for reference — but always try solving problems on your own first!!
 
 ---
 
