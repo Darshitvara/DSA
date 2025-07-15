@@ -1,4 +1,3 @@
-
 public class Merge_sort {
     public static void main(String x[]){
         int[] var1 = new int[]{45, 4, 464, 63, 643, 48, 89, 12};
