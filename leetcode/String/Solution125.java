@@ -1,4 +1,4 @@
-// 125. Valid Palindrome
+// 125. valid par
 // Solved
 // Easy
 // Topics
