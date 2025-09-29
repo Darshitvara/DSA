@@ -54,14 +54,10 @@
 // 3 <= n <= 50
 // 1 <= values[i] <= 100
 
-import java.util.Arrays;
-
 
 public class Solution {
     int mem[][];
 
-    // Function to solve the problem using memoization
-    // i and j are the starting and ending indices of the polygon
     public int solve(int vals[], int i, int j) {
         if (j - i + 1 < 3)
             return 0;
